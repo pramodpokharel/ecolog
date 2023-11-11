@@ -1,4 +1,4 @@
 # ecolog
 energy management
 
-Simple concept app for tracking and monitoring energy use
+Simple concept app for tracking, monitoring and reducing energy use

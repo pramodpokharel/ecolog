@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <title>ECOLOG</title>
+    
+</head>
+
+<body>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+
+    <img src="logo.png" alt="ECOLOG logo">
+    <!-- <h1>Welcome to ECOLOG</h1> -->
+    <!-- <p>Track your energy use and lower your carbon footprint</p> -->
+
+    <form>
+        <h2>Choose your energy use</h2>
+        
+        <!-- Transportation Form -->
+        <label for="transport">Transportation:</label>
+        <select id="transport" name="transport">
+            <option value="walking">Walking</option>
+            <option value="bus">Bus</option>
+            <option value="tram">Tram</option>
+            <option value="Train">Train</option>
+            <option value="car">Car</option>
+            <option value="bicycle">Bicycle</option>
+            <option value="boat">Boat</option>
+            <option value="aeroplane">Aeroplane</option>
+        </select>
+        <label for="distance">Distance (km):</label>
+        <input type="number" id="distance" name="distance" min="0" required>
+        <button type="submit">Submit</button><br>
+        <br>
+
+        <!-- Goods and Services Form -->
+        <label for="goodsAndServices">Goods and Services:</label>
+        <select id="goodsAndServices" name="goodsAndServices">
+            <option value="renewable">Renewable</option>
+            <option value="nonRenewable">Non Renewable</option>
+        </select>
+        <label for="goodsAndServicesInput">Goods and Services Input:</label>
+        <input id="goodsAndServicesInput" name="goodsAndServicesInput">
+        <button type="submit">Submit</button><br>
+        <br>
+
+        <!-- Food Form -->
+        <label for="food">Food:</label>
+        <select id="food" name="food">
+            <option value="meat">Meat</option>
+            <option value="vegetables">Vegetables</option>
+        </select>
+        <label for="foodInput">Food Input:</label>
+        <input id="foodInput" name="foodInput">
+        <button type="submit">Submit</button><br>
+        <br>
+
+        <!-- Other Form -->
+        <label for="other">Other:</label>
+        <input id="other" name="other">
+        <button type="submit">Submit</button><br>
+    </form>
+</body>
+</html>
